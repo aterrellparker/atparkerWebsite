@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>jQuery overscroll Plugin Demo</title>
-    <link rel="stylesheet" href="css/styles.css">
+
     <style>
 
         body {
@@ -17,10 +17,15 @@
         }
 
         div#os {
-            height: 750px;
-            width: 100%;
+            height: 500px;
+            width: 340px;
             overflow: scroll;
-            margin: 30px auto;
+            margin: 100px auto;
+            background-image: url("/Images/File_000.jpeg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
             div#os .item {
@@ -61,19 +66,6 @@
 <script src="src/jquery-overScroll.js"></script>
 <script>
     $('#os').overScroll();
-  </script><script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
 </script>
 </body>
 </html>
