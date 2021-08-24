@@ -8,7 +8,7 @@
 		_.merge(opt, custOpt);
 
 		var dist, lastTime, time, now, reach = -1; //top:-1, bottom:1
-		var el = $element, element = el[0], drag = false, lastScroll = 0, delay = 1;
+		var el = $element, element = el[0], drag = false, lastScroll = 0, delay = .5;
 		var clientSize = opt.horizontal ? 'clientWidth' : 'clientHeight';
 		var scrollSize = opt.horizontal ? 'scrollWidth' : 'scrollHeight';
 		var scrollPos = opt.horizontal ? 'scrollLeft' : 'scrollTop';
