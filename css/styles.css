@@ -16,7 +16,6 @@ show-right {
     float: right !important
 }
 projectImage {
-    height: 100px;
-    width: 100px;
-    background-color: powderblue;
+    height: 25px;
+    width: 25px;
 }
