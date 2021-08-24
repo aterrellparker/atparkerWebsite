@@ -1,21 +1,22 @@
-body {
+.parallax{
     background-image: url("/Images/File_000.jpeg");
     background-color: #cccccc;
     /* Set a specific height */
-    min-height: 500px;
+    height: 500px;
+    width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-main{
+.main{
     background-color: white;
 }
-show-right {
+.show-right {
     float: right !important
 }
-projectImage {
+.projectImage {
     height: 25px;
     width: 25px;
 }
