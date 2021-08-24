@@ -1,3 +1,15 @@
+body {
+    background-image: url("/Images/File_000.jpeg");
+    background-color: #cccccc;
+    /* Set a specific height */
+    height: 500px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .parallax{
     background-image: url("/Images/File_000.jpeg");
     background-color: #cccccc;
@@ -10,8 +22,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.main{
+.main {
     background-color: white;
+    overflow: scroll;
 }
 .show-right {
     float: right !important
