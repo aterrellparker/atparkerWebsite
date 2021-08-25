@@ -29,22 +29,22 @@ div#os {
             height: 150px;
         }
 .main {
-    background-color: dodgerblue;
+    background-color: white;
 }
 .aboutWrapper {
     width: 100%;
-    height: 500px;
-    display: flex;
-    overflow: hidden; /* add this to contain floated children */
+
 }
-.left {
-    width:50%;
-    height:250px;
-    float: left; /* add this */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 35%;
+    padding: 5px;
 }
 
-.right {
-    flex-grow: 1;
-    width: 50%;
-    margin-left: 50%;
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
