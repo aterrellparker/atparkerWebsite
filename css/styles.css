@@ -2,11 +2,14 @@ body {
     max-height: 100vh;
     overflow: hidden;
     text-align: center;
-    background-image: url("Images/File_000.jpeg");
+    
 }
-
+.background {
+    background-image: url("Images/File_000.jpeg");
+    height: 100vh;
+}
 div#os {
-    height: 50vh;
+    height: 90vh;
     width: 100%;
     background-color: transparent;
     overflow: scroll;
