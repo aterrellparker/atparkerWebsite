@@ -2,7 +2,7 @@ body {
     max-height: 100vh;
     overflow: hidden;
     text-align: center;
-    background-image: url('unnamed.jpg');
+    background-image: url('back_image.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
