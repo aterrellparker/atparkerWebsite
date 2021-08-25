@@ -6,10 +6,13 @@ body {
 }
 
 div#os {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     overflow: scroll;
     overflow-x: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
 }
 .main {
     background-color: white;
