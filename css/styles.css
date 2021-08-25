@@ -29,5 +29,22 @@ div#os {
             height: 150px;
         }
 .main {
-    background-color: white;
+    background-color: dodgerblue;
+}
+.aboutWrapper {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    overflow: hidden; /* add this to contain floated children */
+}
+.left {
+    width:50%;
+    height:250px;
+    float: left; /* add this */
+}
+
+.right {
+    flex-grow: 1;
+    width: 50%;
+    margin-left: 50%;
 }
