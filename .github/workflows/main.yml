@@ -34,3 +34,23 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          - name: generate-sitemap
+-name: generate-sitemap
+  # You may pin to the exact commit or the version.
+  # uses: cicirello/generate-sitemap@cf969bce72d620ade9964831a9e82b1404f7a342
+  uses: cicirello/generate-sitemap@v1.8.1
+  with:
+    # The path to the root of the website
+    path-to-root: # optional, default is .
+    # The url of your webpage
+    base-url-path: # optional, default is https://web.address.of.your.nifty.website/
+    # Indicates whether to include html files in the sitemap.
+    include-html: # optional, default is true
+    # Indicates whether to include pdf files in the sitemap.
+    include-pdf: # optional, default is true
+    # Indicates if sitemap should be formatted in xml.
+    sitemap-format: # optional, default is xml
+    # Space separated list of additional file extensions to include in sitemap.
+    additional-extensions: # optional, default is 
+    # Enables dropping .html from urls in sitemap.
+    drop-html-extension: # optional
