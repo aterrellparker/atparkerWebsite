@@ -3,7 +3,7 @@ body {
     overflow: hidden;
     text-align: center;
     background-image: url('https://atparker.me/Images/back_image.jpg');
-    width: 100%;
+    width: 100vw;
     background-attachment: fixed;
     background-position: 0px -150px;
     background-size: cover;
