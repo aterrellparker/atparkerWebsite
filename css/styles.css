@@ -2,7 +2,7 @@ body {
     max-height: 100vh;
     overflow: hidden;
     text-align: center;
-    background-image: url('Images/back_image.jpg');
+    background-image: url('https://atparker.me/Images/back_image.jpg');
     background-attachment: fixed;
     background-position: 0px -150px;
     background-size: cover;
@@ -57,10 +57,6 @@ body {
 .fa-linkedin {
     background: #007bb5;
     color: white;
-}
-.background {
-    background-image: url("Images/File_000.jpeg");
-    height: 100vh;
 }
 div#os {
     height: 90vh;
