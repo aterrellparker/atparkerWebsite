@@ -94,3 +94,16 @@ div#os {
     clear: both;
     display: table;
 }
+.dnbtn {
+    background-color: #a0144e;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+    /* Darker background on mouse-over */
+    .dnbtn:hover {
+        background-color: #7c1843;
+    }
