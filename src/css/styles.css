@@ -2,7 +2,7 @@ body {
     max-height: 100vh;
     overflow: hidden;
     text-align: center;
-    background-image: url('https://atparker.me/Content/Images/back_image.jpg');
+    background-image: url('https://atparker.me/content/images/back_image.jpg');
     width: 100vw;
     background-attachment: fixed;
     background-position: center;
