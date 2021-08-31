@@ -11,7 +11,9 @@ body {
 .title {
     padding-top: 20px;
 }
-/* Add a black background color to the top navigation */
+.presentation {
+    max-width: 90vw;
+}
 .topnav {
     height: 10vh;
     background-color: white;
@@ -87,8 +89,11 @@ div#os {
 }
 .dnbtn {
     background-color: #a0144e;
+    width: 25%;
     border: none;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
