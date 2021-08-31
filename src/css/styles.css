@@ -13,7 +13,9 @@ body {
 }
 .presentation {
     max-width: 90vw;
+    right: 0px;
 }
+
 .topnav {
     height: 10vh;
     background-color: white;
