@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content\\images",
+    "\\content",
+    "\\content\\files",
     "\\resistorSortor",
     "\\src",
     "\\src\\css",
