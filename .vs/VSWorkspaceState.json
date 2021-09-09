@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content",
-    "\\content\\files",
+    "\\content\\images",
+    "\\resistorSortor",
     "\\src",
+    "\\src\\css",
     "\\src\\scripts"
   ],
-  "SelectedNode": "\\content\\files\\Resume.pdf",
+  "SelectedNode": "\\src\\scripts\\jquery-overScroll-1.0.1.js",
   "PreviewInSolutionExplorer": false
 }
