@@ -1,5 +1,5 @@
 body {
-    max-height: 100vh;
+    max-height: 100%;
     overflow: hidden;
     text-align: center;
     background-image: url('https://atparker.me/content/images/back_image.png');
@@ -16,9 +16,9 @@ body {
 }
 
 .topnav {
-    height: 10vh;
     background-color: white;
     overflow: hidden;
+    z-index: 100;
 }
     /* Style the links inside the navigation bar */
     .topnav a {
@@ -72,7 +72,7 @@ body {
 }
 
 div#os {
-    height: 90vh;
+    height: 92.6vh;
     width: 100%;
     background-color: transparent;
     overflow: scroll;
@@ -83,6 +83,7 @@ div#os {
 
 .main {
     background-color: #a0144e;
+    z-index: -1;
 }
 
 .aboutWrapper {
