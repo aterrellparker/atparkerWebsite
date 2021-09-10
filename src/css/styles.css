@@ -19,6 +19,9 @@ body {
     background-color: white;
     overflow: hidden;
     z-index: 100;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
     /* Style the links inside the navigation bar */
     .topnav a {
@@ -72,7 +75,7 @@ body {
 }
 
 div#os {
-    height: 92.6vh;
+    height: 100vh;
     width: 100%;
     background-color: transparent;
     overflow: scroll;
