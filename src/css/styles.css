@@ -7,7 +7,9 @@ body {
     background-position: center;
     background-size: cover;
 }
-
+.text-themeColor {
+    color: #9A1040;
+}
 .title {
     padding-top: 20px;
 }
@@ -15,7 +17,10 @@ body {
 .embedWrapper {
     max-width: 90vw;
 }
-
+.main {
+    background-color: #9A1040;
+    z-index: -1;
+}
 .topnav {
     background-color: white;
     overflow: hidden;
@@ -42,7 +47,7 @@ body {
 
         /* Add a color to the active/current link */
         .topnav a.active {
-            background-color: #a0144e;
+            background-color: #9A1040;
             color: white;
         }
 
@@ -84,23 +89,28 @@ div#os {
     position: absolute;
     bottom: 0;
 }
-
-.main {
-    background-color: #a0144e;
-    z-index: -1;
+.h_iframe iframe {
+    width: 100%;
+    height: calc(100% - 75px);
 }
+
+.h_iframe {
+    height: 100%;
+}
+
 
 .aboutWrapper {
     width: 100%;
 }
 
 .dnbtn {
-    background-color: #a0144e;
-    width: 25%;
+    background-color: #9A1040;
+    width: 50%;
     border: none;
     color: white;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
