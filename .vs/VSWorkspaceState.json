@@ -2,13 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\content",
-    "\\content\\files",
-    "\\content\\images",
     "\\resistorSortor",
     "\\src",
     "\\src\\css",
     "\\src\\scripts"
   ],
-  "SelectedNode": "\\src\\scripts\\jquery-overScroll-1.0.1.js",
+  "SelectedNode": "\\src\\css\\w3.css",
   "PreviewInSolutionExplorer": false
 }
