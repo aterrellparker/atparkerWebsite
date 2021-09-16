@@ -27,6 +27,7 @@ body {
 
     .embedWrapper iframe, .embedWrapper video .embedWrapper embed{
         position: absolute;
+        margin: auto;
         top: 0;
         left: 0;
         width: 90%;
