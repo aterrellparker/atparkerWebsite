@@ -31,7 +31,7 @@ body {
     /* Style the links inside the navigation bar */
     .topnav a {
         float: left;
-        color: #black;
+        color: black;
         text-align: center;
         max-width: 20%;
         padding: 14px 16px;
