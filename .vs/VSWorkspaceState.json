@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\content",
+    "\\content\\images",
     "\\resistorSortor",
     "\\src",
     "\\src\\css",
     "\\src\\scripts"
   ],
-  "SelectedNode": "\\src\\css\\styles.css",
+  "SelectedNode": "\\content\\images\\rs.Software.png",
   "PreviewInSolutionExplorer": false
 }
