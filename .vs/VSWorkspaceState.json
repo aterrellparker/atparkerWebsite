@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\content\\files",
+    "\\src",
     "\\src\\css",
     "\\src\\scripts"
   ],
-  "SelectedNode": "\\notindex.html",
+  "SelectedNode": "\\content",
   "PreviewInSolutionExplorer": false
 }

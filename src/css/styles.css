@@ -111,14 +111,8 @@ div#os {
     height: 100%;
 }
 
-
-.aboutWrapper {
-    width: 100%;
-}
-
 .dnbtn {
-    background-color: #9A1040;
-    width: 50%;
+    width: 75%;
     border: none;
     color: white;
     margin-left: auto;
