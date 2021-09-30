@@ -24,14 +24,38 @@
 </head>
 
 <body>
-    <div id="navbar" class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#socialFeed">Social Media</a>
-        <a href="#resume">Resume</a>
-        <a href="#projects">Projects</a>
-        <a href="#credits">Credits</a>
+    <div id="topnav" class="topnav">
+        <a id="openNav" class="w3-button active" style="display:initial;" onclick="w3_open()"> &#9776; Menu</a>
+        <a class="" href="#home">Home</button>
+        <a class="" href="#about">About</a>
+        <a class="" href="#socialFeed">Social Media</a>
+        <a class="" href="#resume">Resume</a>
+        <a class="" href="#projects">Projects</a>
+        <a class="" href="#credits">Credits</a>
     </div>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+        <a class="w3-button w3-xlarge" href="#home" onclick="w3_close()">Home</a>
+        <a class="w3-button w3-xlarge" href="#about" onclick="w3_close()">About</a>
+        <a class="w3-button w3-xlarge" href="#socialFeed" onclick="w3_close()">Social Media</a>
+        <a class="w3-button w3-xlarge" href="#resume" onclick="w3_close()">Resume</a>
+        <a class="w3-button w3-xlarge" href="#projects" onclick="w3_close()">Projects</a>
+        <a class="w3-button w3-xlarge" href="#credits" onclick="w3_close()">Credits</a>
+    </div>
+
+    <script>
+        function w3_open() {
+            document.getElementById("os").style.marginLeft = "25%";
+            document.getElementById("mySidebar").style.width = "25%";
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("topnav").style.display = 'none';
+        }
+
+        function w3_close() {
+            document.getElementById("os").style.marginLeft = "0%";
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("topnav").style.display = "block";
+        }
+    </script>
 
     <div id="os">
         <br />
