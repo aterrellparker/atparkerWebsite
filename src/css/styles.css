@@ -10,6 +10,9 @@ body {
 .themeColor-background {
     background-color: #9A1040;
 }
+.themeColor-btn {
+    background-color: #8B2331;
+}
 .themeColor-text {
     color: #9A1040;
 }
@@ -110,7 +113,6 @@ div#os {
 .h_iframe {
     height: 100%;
 }
-
 .dnbtn {
     width: 75%;
     border: none;
