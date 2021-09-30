@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\resistorSortor",
-    "\\src\\scripts"
+    "\\content",
+    "\\content\\images",
+    "\\pages"
   ],
-  "SelectedNode": "\\resistorSortor\\index.html",
+  "SelectedNode": "\\content\\images\\nccuDreamSTEM.png",
   "PreviewInSolutionExplorer": false
 }
