@@ -7,15 +7,19 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .themeColor-background {
     background-color: #9A1040;
 }
+
 .themeColor-btn {
     background-color: #8B2331;
 }
+
 .themeColor-text {
     color: #9A1040;
 }
+
 .title {
     padding-top: 20px;
 }
@@ -29,7 +33,7 @@ body {
     max-width: 100%;
 }
 
-    .embedWrapper iframe, .embedWrapper video .embedWrapper embed{
+    .embedWrapper iframe, .embedWrapper video .embedWrapper embed {
         position: absolute;
         margin: auto;
         top: 0;
@@ -37,6 +41,7 @@ body {
         width: 90%;
         height: 100%;
     }
+
 .topnav {
     background-color: white;
     overflow: hidden;
@@ -45,6 +50,9 @@ body {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
+    .topnav a.menuBtn {
+        display: none;
+    }
     /* Style the links inside the navigation bar */
     .topnav a {
         float: left;
@@ -66,14 +74,19 @@ body {
             background-color: #9A1040;
             color: white;
         }
+
 @media screen and (max-width: 900px) {
     .topnav a {
-        max-width:100%;
-        width:100%;
+        max-width: 100%;
+        width: 100%;
         float: none;
-        display:none;
+        display: none;
+    }
+    .topnav a.menuBtn {
+        display: block;
     }
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -112,6 +125,7 @@ div#os {
     position: absolute;
     bottom: 0;
 }
+
 .h_iframe iframe {
     width: 100%;
     height: calc(100% - 75px);
@@ -120,6 +134,7 @@ div#os {
 .h_iframe {
     height: 100%;
 }
+
 .dnbtn {
     width: 75%;
     border: none;

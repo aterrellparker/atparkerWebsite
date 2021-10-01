@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="src/css/styles.css">
     <script data-require="lodash.js@*" data-semver="4.11.1" src="https://cdn.jsdelivr.net/lodash/4.11.1/lodash.js"></script>
@@ -25,8 +25,8 @@
 
 <body>
     <div id="topnav" class="topnav">
-        <a id="openNav" class="w3-button active" style="display:initial;" onclick="w3_open()"> &#9776; Menu</a>
-        <a class="" href="#home">Home</button>
+        <a class="active menuBtn" onclick="w3_open()"> &#9776; Menu</a>
+        <a class="active" href="#home">Home</a>
         <a class="" href="#about">About</a>
         <a class="" href="#socialFeed">Social Media</a>
         <a class="" href="#resume">Resume</a>
@@ -47,13 +47,13 @@
             document.getElementById("os").style.marginLeft = "25%";
             document.getElementById("mySidebar").style.width = "25%";
             document.getElementById("mySidebar").style.display = "block";
-            document.getElementById("topnav").style.display = 'none';
+            document.getElementById("topnav").style.width = "25%";
         }
 
         function w3_close() {
             document.getElementById("os").style.marginLeft = "0%";
             document.getElementById("mySidebar").style.display = "none";
-            document.getElementById("topnav").style.display = "block";
+            document.getElementById("topnav").style.width = "100%";
         }
     </script>
 
