@@ -3,8 +3,9 @@
     "",
     "\\content",
     "\\content\\images",
-    "\\pages"
+    "\\pages",
+    "\\resistorSortor"
   ],
-  "SelectedNode": "\\content\\images\\nccuDreamSTEM.png",
+  "SelectedNode": "\\resistorSortor\\index.html",
   "PreviewInSolutionExplorer": false
 }
