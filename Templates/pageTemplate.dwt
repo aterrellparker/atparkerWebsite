@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Setup -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+<link rel="stylesheet" href="../src/css/styles.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Scripts -->
+	<script data-require="lodash.js@*" data-semver="4.11.1" src="https://cdn.jsdelivr.net/lodash/4.11.1/lodash.js"></script>
+    <script data-require="jquery@2.1.3" data-semver="2.1.3" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="src/scripts/jquery-overScroll-1.0.1.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGV2VXERCY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XGV2VXERCY');
+    </script>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>|Terrell Parker's Website'</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="icon" -->
+<link rel="icon" href="content/images/goofyHeadshot.png" type="image/png">
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	 <div id="os">
+        <br />
+            <!-- TemplateBeginEditable name="bodyTitle" -->
+
+<!-- TemplateEndEditable -->    
+         
+        <br />
+            <!-- TemplateBeginEditable name="bodyDesc" -->
+
+<!-- TemplateEndEditable -->    
+         
+        <div class="themeColor-background">
+        <!-- TemplateBeginEditable name="body" -->
+
+<!-- TemplateEndEditable -->    
+         
+        </div>
+    </div>
+    <script>
+        $('#os').overScroll();
+    </script>
+</body>
+</html>

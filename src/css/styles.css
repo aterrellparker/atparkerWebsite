@@ -7,7 +7,10 @@ body {
     background-position: center;
     background-size: cover;
 }
-
+.mainDiv
+{
+    min-height: 75%;
+}
 .themeColor-background {
     background-color: #9A1040;
 }
