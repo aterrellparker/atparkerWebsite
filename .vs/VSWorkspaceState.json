@@ -3,9 +3,12 @@
     "",
     "\\content",
     "\\content\\files",
+    "\\content\\images",
     "\\pages",
-    "\\resistorSortor"
+    "\\pages\\baseball",
+    "\\pages\\resistorSortor",
+    "\\pages\\resistorSortor\\content"
   ],
-  "SelectedNode": "\\pages\\baseball.html",
+  "SelectedNode": "\\pages\\resistorSortor\\content\\images",
   "PreviewInSolutionExplorer": false
 }
