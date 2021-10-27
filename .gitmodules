@@ -1,9 +1,3 @@
 [submodule "atparkerWebsite"]
 	path = atparkerWebsite
 	url = https://github.com/ScpCode/atparkerWebsite
-[submodule "blog"]
-	path = blog
-	url = https://github.com/ScpCode/blog
-[submodule "pages/blog"]
-	path = pages/blog
-	url = https://github.com/ScpCode/blog
