@@ -3,5 +3,5 @@
 	url = https://github.com/ScpCode/atparkerWebsite
 [submodule "pages/blog"]
 	path = pages/blog
-	url = https://github.com/scpcode/
+	url = https://github.com/ScpCode/blog
 	branch = master
