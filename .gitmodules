@@ -1,3 +1,7 @@
 [submodule "atparkerWebsite"]
 	path = atparkerWebsite
 	url = https://github.com/ScpCode/atparkerWebsite
+[submodule "pages/blog"]
+	path = pages/blog
+	url = https://github.com/scpcode/
+	branch = master
