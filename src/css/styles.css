@@ -11,8 +11,23 @@ body {
 {
     min-height: 75%;
 }
-.themeColor-background {
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #8b2331;
+    color: white;
+    text-align: left;
+}
+
+</style >
+.themeColor-background {
+    color: #fff !important;
+    background-color: #8b2331 !important
+}
+.thmColor {
+    color: #fff !important;
+    background-color: #8b2331 !important
 }
 
 .themeColor-btn {
