@@ -2,13 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\content",
-    "\\content\\files",
-    "\\content\\images",
-    "\\pages",
-    "\\pages\\baseball",
-    "\\pages\\resistorSortor",
-    "\\pages\\resistorSortor\\content"
+    "\\content\\images"
   ],
-  "SelectedNode": "\\pages\\resistorSortor\\content\\images",
+  "SelectedNode": "\\content\\images",
   "PreviewInSolutionExplorer": false
 }

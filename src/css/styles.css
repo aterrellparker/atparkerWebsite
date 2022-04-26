@@ -12,7 +12,7 @@ body {
     min-height: 75%;
 }
 .themeColor-background {
-    background-color: #9A1040;
+    background-color: #8b2331;
 }
 
 .themeColor-btn {
@@ -46,7 +46,7 @@ body {
     }
 
 .topnav {
-    background-color: white;
+    background-color: transparent;
     overflow: hidden;
     z-index: 100;
     position: fixed; /* Set the navbar to fixed position */
@@ -158,3 +158,27 @@ div#os {
 .blackOutline {
     outline-style: solid;
 }
+#slide {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
