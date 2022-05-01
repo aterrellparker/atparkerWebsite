@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\content",
+    "\\pages"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\pages\\backupIndex2.html",
   "PreviewInSolutionExplorer": false
 }
