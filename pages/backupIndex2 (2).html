@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Terrell Parker's Website</title>
+    <link rel="icon" href="content/images/goofyHeadshot.png" type="image/png">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <script data-require="lodash.js@*" data-semver="4.11.1" src="https://cdn.jsdelivr.net/lodash/4.11.1/lodash.js"></script>
+    <script data-require="jquery@2.1.3" data-semver="2.1.3" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="src/scripts/jquery-overScroll-1.0.1.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGV2VXERCY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XGV2VXERCY');
+    </script>
+</head>
+<body style="background-color:black;">
+    <div id="topnav" class="topnav">
+        <a class="active" onclick="w3_open()"> &#9776; Home</a>
+    </div>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+        <a class="w3-button w3-xlarge" href="#home" onclick="w3_close()">Home</a>
+        <a class="w3-button w3-xlarge" href="#about" onclick="w3_close()">About</a>
+        <a class="w3-button w3-xlarge" href="#socialFeed" onclick="w3_close()">Social Media</a>
+        <a class="w3-button w3-xlarge" href="#resume" onclick="w3_close()">Resume</a>
+        <a class="w3-button w3-xlarge" href="#projects" onclick="w3_close()">Projects</a>
+        <a class="w3-button w3-xlarge" href="#credits" onclick="w3_close()">Credits</a>
+    </div>
+
+    <script>
+        function w3_open() {
+            document.getElementById("os").style.marginLeft = "25%";
+            document.getElementById("mySidebar").style.width = "25%";
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("topnav").style.width = "25%";
+        }
+
+        function w3_close() {
+            document.getElementById("os").style.marginLeft = "0%";
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("topnav").style.width = "100%";
+        }
+    </script>
+    <div style="background-color:black">
+        <div class="w3-padding">
+            <!--Title and About Me-->
+            <div class="w3-third w3-animate-left">
+                <br />
+                <br />
+                <p class="w3-text-white w3-border-bottom" style="font-size:x-large;">
+                    <img style="position:center;" src="https://cdn.ymaws.com/nsbp.site-ym.com/graphics/logo.png">
+                </p>
+                <h1 class="w3-text-white title">NSBP NCCU <br></h1>
+                <p class="w3-text-white" style="font-size:x-large;">
+                    Official page for the North Carolina Central University’s Chapter of the National Society of Black Physicists
+                </p>
+
+
+            </div>
+
+            <!--Pic and Contact Info-->
+            <div class="w3-twothird themeColor-background w3-card w3-animate-right" style="height: 650px; shape-outside: polygon(35% 0%, 100% 0, 100% 100%, 0% 100%); shape-margin: 20px; clip-path: polygon(35% 0%, 100% 0, 100% 100%, 0% 100%); text-align: right; ">
+               <img style="height:580px;"src="https://www.nccu.edu/sites/default/files/inline-images/Physics.jpg" />
+                
+            </div>
+
+            </div>
+
+        </div>
+     
+
+        <div>
+            <p class="w3-text-white">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                The National Society of Black Physicists (NSBP) is the largest and most recognizable organization devoted to the growth, development, and advancement of the African-American physics community.
+                <br />
+                Founded in 1977 at Morgan State University, the mission of the National Society of Black Physicists is to promote the professional well-being of African American physicists and physics students within the international scientific community and within society at large.
+            </p>
+        </div>
+        <br />
+
+
+        <!--<div class="w3-third">
+            <div id="socialFeed" style="max-height:700px;">
+                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-text-white">Social Media Feed</h3>-->
+        <!-- Place <div> tag where you want the feed to appear -->
+        <!--<div id="curator-feed-default-feed-layout">
+            <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">
+                Powered
+                by Curator.io
+            </a>
+        </div>-->
+        <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+        <!--<script type="text/javascript">
+                    /* curator-feed-default-feed-layout */
+                    (function () {
+                        var i, e, d = document, s = "script"; i = d.createElement("script"); i.async = 1; i.charset = "UTF-8";
+                        i.src = "https://cdn.curator.io/published/ac6ba7c1-0682-4535-aefb-2f5c6e4dc31f.js";
+                        e = d.getElementsByTagName(s)[0]; e.parentNode.insertBefore(i, e);
+                    })();
+                </script>
+            </div>
+        </div>-->
+    </div>
+</body>
+</html>
