@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.3.3/d3.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+
+    <script src="gears.js"></script>
+    <link rel="stylesheet" href="./gear-toy.css">
+    <script type="text/javascript" src="./gears.d3.js"></script>
+    <script type="text/javascript" src="./gear-toy.js"></script>
+</head>
+<style>
+    #gear {
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+    }
+</style>
+
+<style>
+    #gear {
+        position: absolute;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+    }
+
+    @-moz-keyframes spin {
+        100% {
+            -moz-transform: rotate(360deg);
+        }
+    }
+
+    @-webkit-keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+</style>
+
+<body>
+    <div class="gears-d3-canvas"></div>
+    <div id="gear">
+        <img src="content/images/gear.png" />
+    </div>
+    <div id="gear1">
+        <img src="content/images/gear.png" />
+    </div>
+    <h1>Draggable DIV Element</h1>
+
+    <p>Click and hold the mouse button down while moving the DIV element</p>
+    <div class="nav"><a href="http://brm.io/gears-d3-js/">Project page</a> <span class="nav-sep">&middot;</span> <a href="https://github.com/liabru/gears-d3-js">GitHub</a></div>
+    <ul>
+        <li>Click and drag the gears to move them, use the toolbar on the right to change how they look</li>
+    </ul>
+</body>
+</html>

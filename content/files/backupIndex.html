@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+    <title>Terrell Parker's Website</title>
+    <link rel="icon" href="content/images/goofyHeadshot.png" type="image/png">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script data-require="lodash.js@*" data-semver="4.11.1" src="https://cdn.jsdelivr.net/lodash/4.11.1/lodash.js"></script>
+    <script data-require="jquery@2.1.3" data-semver="2.1.3" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="src/scripts/jquery-overScroll-1.0.1.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGV2VXERCY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XGV2VXERCY');
+    </script>
+</head>
+
+<body>
+    <div id="topnav" class="topnav2">
+        <a class="active menuBtn" onclick="w3_open()"> &#9776; Menu</a>
+        <a class="active" href="#home">Home</a>
+        <a class="" href="#about">About</a>
+        <a class="" href="#socialFeed">Social Media</a>
+        <a class="" href="#resume">Resume</a>
+        <a class="" href="#projects">Projects</a>
+        <a class="" href="#credits">Credits</a>
+    </div>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+        <a class="w3-button w3-xlarge" href="#home" onclick="w3_close()">Home</a>
+        <a class="w3-button w3-xlarge" href="#about" onclick="w3_close()">About</a>
+        <a class="w3-button w3-xlarge" href="#socialFeed" onclick="w3_close()">Social Media</a>
+        <a class="w3-button w3-xlarge" href="#resume" onclick="w3_close()">Resume</a>
+        <a class="w3-button w3-xlarge" href="#projects" onclick="w3_close()">Projects</a>
+        <a class="w3-button w3-xlarge" href="#credits" onclick="w3_close()">Credits</a>
+    </div>
+
+    <script>
+        function w3_open() {
+            document.getElementById("os").style.marginLeft = "25%";
+            document.getElementById("mySidebar").style.width = "25%";
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("topnav").style.width = "25%";
+        }
+
+        function w3_close() {
+            document.getElementById("os").style.marginLeft = "0%";
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("topnav").style.width = "100%";
+        }
+    </script>
+
+    <div id="os">
+        <br />
+        <h1 class="w3-text-white title">Atparker.me <br>The Official Website of Auston Terrell Parker</h1>
+        <div class="themeColor-background">
+            <div id="about">
+                <div class="w3-row-padding">
+                    <div class="w3-half">
+                        <p class="w3-text-white">
+                            Auston Terrell Parker, son of Edward Parker and Valerie Parker, is a native of Cary N.C. Terrell graduated from Panther Creek High School, where he was a member of the varsity baseball team. He is an active in his community, volunteering at a local food bank and the Miracle League of the Triangle serving individuals with special needs. Terrell plans to major in physics and mechanical engineering.
+                        </p>
+                        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-text-white">About Me</h3>
+                        <div class="w3-white w3-card-4">
+
+                        </div>
+                        <div class="w3-container">
+                            <p><a href="https://www.nccu.edu/"><i class="fa fa-briefcase fa-fw w3-margin-right w3-large themeColor-text"></i>Student - North Carolina Central University</a></p>
+                            <p><a href="https://goo.gl/maps/YgFYLU9yhYd4k2pz9"><i class="fa fa-home fa-fw w3-margin-right w3-large themeColor-text"></i>Durham, NC</a></p>
+                            <p>
+                                <a href="mailto:aterrellparker@gmail.com"><i class="fa fa-envelope fa-fw themeColor-text"></i>aterrellparker@gmail.com</a>
+                            </p>
+                            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large themeColor-text"></i>N/A</p>
+                            <a href="https://www.linkedin.com/in/auston-parker-077ba021a/" target="_blank" class="fa fa-linkedin"></a>
+                            <a href="https://nccu.joinhandshake.com/users/34752368" target="_blank" class="fa fa-handshake-o" style="background-color:orangered; color:white;"></a>
+                            <a href="https://www.instagram.com/atp01013/" target="_blank" class="fa fa-instagram"></a>
+                        </div>
+                    </div><br>
+                    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-text-white">VitaNavis SuperStrong® Insights</h3>
+                    <div class="w3-card-4 w3-white" style="max-height:900px">
+                        <p>Click on <span><!-- ngRepeat: el in occupationalThemes track by $index --><span data-ng-repeat="el in occupationalThemes track by $index" data-ng-style="{color: el.color}" class="ng-binding ng-scope" style="color: rgb(235, 20, 24);">R<!-- ngIf: $index < occupationalThemes.length - 1 --><span data-ng-if="$index < occupationalThemes.length - 1" class="ng-scope">-</span><!-- end ngIf: $index < occupationalThemes.length - 1 --></span><!-- end ngRepeat: el in occupationalThemes track by $index --><span data-ng-repeat="el in occupationalThemes track by $index" data-ng-style="{color: el.color}" class="ng-binding ng-scope" style="color: rgb(22, 112, 202);">I<!-- ngIf: $index < occupationalThemes.length - 1 --><span data-ng-if="$index < occupationalThemes.length - 1" class="ng-scope">-</span><!-- end ngIf: $index < occupationalThemes.length - 1 --></span><!-- end ngRepeat: el in occupationalThemes track by $index --><span data-ng-repeat="el in occupationalThemes track by $index" data-ng-style="{color: el.color}" class="ng-binding ng-scope" style="color: rgb(2, 136, 64);">A<!-- ngIf: $index < occupationalThemes.length - 1 --><span data-ng-if="$index < occupationalThemes.length - 1" class="ng-scope">-</span><!-- end ngIf: $index < occupationalThemes.length - 1 --></span><!-- end ngRepeat: el in occupationalThemes track by $index --><span data-ng-repeat="el in occupationalThemes track by $index" data-ng-style="{color: el.color}" class="ng-binding ng-scope" style="color: rgb(162, 83, 190);">S<!-- ngIf: $index < occupationalThemes.length - 1 --><span data-ng-if="$index < occupationalThemes.length - 1" class="ng-scope">-</span><!-- end ngIf: $index < occupationalThemes.length - 1 --></span><!-- end ngRepeat: el in occupationalThemes track by $index --><span data-ng-repeat="el in occupationalThemes track by $index" data-ng-style="{color: el.color}" class="ng-binding ng-scope" style="color: rgb(202, 79, 12);">E<!-- ngIf: $index < occupationalThemes.length - 1 --><span data-ng-if="$index < occupationalThemes.length - 1" class="ng-scope">-</span><!-- end ngIf: $index < occupationalThemes.length - 1 --></span><!-- end ngRepeat: el in occupationalThemes track by $index --><span data-ng-repeat="el in occupationalThemes track by $index" data-ng-style="{color: el.color}" class="ng-binding ng-scope" style="color: rgb(148, 111, 0);">C<!-- ngIf: $index < occupationalThemes.length - 1 --></span><!-- end ngRepeat: el in occupationalThemes track by $index --></span></p>
+                        <svg xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;margin:auto;position:relative; left:18%;" overflow="visible"><defs><clipPath id="a"><path d="M0 0h315v260H0z" /></clipPath><clipPath id="b"><path class="amcharts-Sprite" d="M0-80.8A80.8 80.8 0 0 1 0 80.8 80.8 80.8 0 0 1 0-80.8" /></clipPath><clipPath id="c"><path class="amcharts-Circle" d="M0-80.8A80.8 80.8 0 0 1 0 80.8 80.8 80.8 0 0 1 0-80.8" /></clipPath><filter id="d" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5" /><feOffset result="offsetBlur" dx="1" dy="1" /><feFlood flood-color="#000" flood-opacity=".5" /><feComposite in2="offsetBlur" operator="in" /><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="e" filterUnits="objectBoundingBox" width="120%" height="120%" x="-10%" y="-10%"><feColorMatrix type="saturate" values="0" /></filter><filter id="g" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5" /><feOffset result="offsetBlur" dx="1" dy="1" /><feFlood flood-color="#000" flood-opacity=".5" /><feComposite in2="offsetBlur" operator="in" /><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter><linearGradient id="f" x1="1%" x2="99%" y1="59%" y2="41%"><stop stop-color="#474758" offset="0" /><stop stop-color="#474758" offset=".75" /><stop stop-color="#3cabff" offset=".755" /></linearGradient></defs><g class="amcharts-Sprite-group amcharts-Container-group"><g class="amcharts-Sprite-group amcharts-Rectangle-group" fill="#fff" fill-opacity="0"><path class="amcharts-Rectangle" fill="none" d="M0 0h315v260H0z" /></g><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Component-group amcharts-Chart-group amcharts-SerialChart-group amcharts-XYChart-group amcharts-RadarChart-group" clip-path="url(&quot;#a&quot;)" aria-label="Chart"><g class="amcharts-Container amcharts-Component amcharts-Chart amcharts-SerialChart amcharts-XYChart amcharts-RadarChart"><g class="amcharts-Sprite-group amcharts-Container-group"><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Container-group"><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Container-group"><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Container-group"><g class="amcharts-Sprite-group amcharts-Rectangle-group" fill="#fff" fill-opacity="0"><path class="amcharts-Rectangle" fill="none" d="M15 29h285v202H15z" /></g><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Container-group"><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Component-group amcharts-Axis-group amcharts-CategoryAxis-group" aria-hidden="true"><g class="amcharts-Container amcharts-Component amcharts-Axis amcharts-CategoryAxis"><g class="amcharts-Sprite-group amcharts-Container-group amcharts-AxisRenderer-group amcharts-AxisRendererCircular-group"><g class="amcharts-Container amcharts-AxisRenderer amcharts-AxisRendererCircular"><g class="amcharts-Sprite-group amcharts-Container-group"><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Grid-group amcharts-GridCircular-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid amcharts-GridCircular" d="M157.5 130V49.2" /></g><g class="amcharts-Sprite-group amcharts-Grid-group amcharts-GridCircular-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid amcharts-GridCircular" d="m157.5 130 69.9757-40.3985" /></g><g class="amcharts-Sprite-group amcharts-Grid-group amcharts-GridCircular-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid amcharts-GridCircular" d="m157.5 130 69.9757 40.3985" /></g><g class="amcharts-Sprite-group amcharts-Grid-group amcharts-GridCircular-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid amcharts-GridCircular" d="M157.5 130v80.8" /></g><g class="amcharts-Sprite-group amcharts-Grid-group amcharts-GridCircular-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid amcharts-GridCircular" d="m157.5 130-69.9757 40.3985" /></g><g class="amcharts-Sprite-group amcharts-Grid-group amcharts-GridCircular-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid amcharts-GridCircular" d="M157.5 130 87.5243 89.6015" /></g><g class="amcharts-Sprite-group amcharts-Grid-group amcharts-GridCircular-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid amcharts-GridCircular" d="M157.5 130V49.2" /></g></g></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Label-group amcharts-AxisLabel-group amcharts-AxisLabelCircular-group" fill="#eb1418" font-size="15" font-weight="900" cursor="pointer"><text y="21.34375" dy="-5.763" transform="translate(151.5 13.2)" class="amcharts-Container amcharts-Label amcharts-AxisLabel amcharts-AxisLabelCircular" style="user-select:none"><tspan>R</tspan></text></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Label-group amcharts-AxisLabel-group amcharts-AxisLabelCircular-group" fill="#1670ca" font-size="15" font-weight="900" cursor="pointer"><text y="21.34375" dy="-5.763" transform="translate(240.064 66.351)" class="amcharts-Container amcharts-Label amcharts-AxisLabel amcharts-AxisLabelCircular" style="user-select:none"><tspan>I</tspan></text></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Label-group amcharts-AxisLabel-group amcharts-AxisLabelCircular-group" fill="#028840" font-size="15" font-weight="900" cursor="pointer"><text y="21.34375" dy="-5.763" transform="translate(239.595 172.649)" class="amcharts-Container amcharts-Label amcharts-AxisLabel amcharts-AxisLabelCircular" style="user-select:none"><tspan>A</tspan></text></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Label-group amcharts-AxisLabel-group amcharts-AxisLabelCircular-group" fill="#a253be" font-size="15" font-weight="900" cursor="pointer"><text y="21.34375" dy="-5.763" transform="translate(152 225.8)" class="amcharts-Container amcharts-Label amcharts-AxisLabel amcharts-AxisLabelCircular" style="user-select:none"><tspan>S</tspan></text></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Label-group amcharts-AxisLabel-group amcharts-AxisLabelCircular-group" fill="#ca4f0c" font-size="15" font-weight="900" cursor="pointer"><text y="21.34375" dy="-5.763" transform="translate(64.271 172.649)" class="amcharts-Container amcharts-Label amcharts-AxisLabel amcharts-AxisLabelCircular" style="user-select:none"><tspan>E</tspan></text></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Label-group amcharts-AxisLabel-group amcharts-AxisLabelCircular-group" fill="#946f00" font-size="15" font-weight="900" cursor="pointer"><text y="21.34375" dy="-5.763" transform="translate(63.338 66.351)" class="amcharts-Container amcharts-Label amcharts-AxisLabel amcharts-AxisLabelCircular" style="user-select:none"><tspan>C</tspan></text></g></g></g><g class="amcharts-Sprite-group amcharts-AxisLine-group" stroke="#000" stroke-opacity="0" fill="none" pointer-events="none"><path class="amcharts-AxisLine" d="M157 48.7a80.8 80.8 0 0 1 0 161.6 80.8 80.8 0 0 1 0-161.6" stroke="none" /></g></g></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Component-group amcharts-Axis-group amcharts-ValueAxis-group" aria-hidden="true"><g class="amcharts-Container amcharts-Component amcharts-Axis amcharts-ValueAxis"><g class="amcharts-Sprite-group amcharts-Container-group amcharts-AxisRenderer-group amcharts-AxisRendererY-group amcharts-AxisRendererRadial-group"><g class="amcharts-Container amcharts-AxisRenderer amcharts-AxisRendererY amcharts-AxisRendererRadial"><g class="amcharts-Sprite-group amcharts-Container-group"><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Grid-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid" d="M157 129.5" /></g><g class="amcharts-Sprite-group amcharts-Grid-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid" d="m157 109.3 17.4939 10.1003v20.1994L157 149.7l-17.4939-10.1003v-20.1994L157 109.3" /></g><g class="amcharts-Sprite-group amcharts-Grid-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid" d="m157 89.1 34.9878 20.2006v40.3988L157 169.9l-34.9878-20.2006v-40.3988L157 89.1" /></g><g class="amcharts-Sprite-group amcharts-Grid-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid" d="m157 68.9 52.4817 30.3009v60.5982L157 190.1l-52.4817-30.3009V99.2009L157 68.9" /></g><g class="amcharts-Sprite-group amcharts-Grid-group" stroke="#000" stroke-opacity=".15" fill="none"><path class="amcharts-Grid" d="m157 48.7 69.9756 40.4012v80.7976L157 210.3l-69.9756-40.4012V89.1012L157 48.7" /></g></g></g></g></g><g class="amcharts-Sprite-group amcharts-AxisLine-group" stroke="#000" stroke-opacity="0" fill="none" pointer-events="none"><path class="amcharts-AxisLine" d="M157 129.5V48.7" stroke="none" /></g></g></g><g class="amcharts-Sprite-group amcharts-Container-group"><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Component-group amcharts-Series-group amcharts-XYSeries-group amcharts-LineSeries-group amcharts-RadarSeries-group" fill-opacity="0" stroke="#67b7dc" stroke-width="3" aria-label="Series"><g class="amcharts-Container amcharts-Component amcharts-Series amcharts-XYSeries amcharts-LineSeries amcharts-RadarSeries"><g class="amcharts-Sprite-group amcharts-Container-group" clip-path="url(&quot;#b&quot;)" transform="translate(157.5 130)"><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Container-group"><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Container-group" fill="#67b7dc" pointer-events="none"><g class="amcharts-Container"><g class="amcharts-Sprite-group" fill="none"><path class="amcharts-Sprite" d="m0-71.5 54.3869 40.1009-3.8971 60.5482L0 54.3l-49.9702-25.4509-7.9675-62.2981L0-71.5" /></g></g></g></g></g></g></g></g></g></g></g><g class="amcharts-Sprite-group amcharts-Container-group" clip-path="url(&quot;#c&quot;)" transform="translate(157.5 130)"><g class="amcharts-Container"><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Series-bullets-group amcharts-XYSeries-bullets-group amcharts-LineSeries-bullets-group amcharts-RadarSeries-bullets-group" fill="#67b7dc" stroke="#67b7dc"><g class="amcharts-Container amcharts-Series-bullets amcharts-XYSeries-bullets amcharts-LineSeries-bullets amcharts-RadarSeries-bullets"><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Bullet-group amcharts-CircleBullet-group" tabindex="0"><g class="amcharts-Container amcharts-Bullet amcharts-CircleBullet"><g class="amcharts-Sprite-group amcharts-Circle-group" stroke-width="2" transform="translate(0 -71.5)"><circle class="amcharts-Circle" r="4" /></g></g></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Bullet-group amcharts-CircleBullet-group" tabindex="0"><g class="amcharts-Container amcharts-Bullet amcharts-CircleBullet"><g class="amcharts-Sprite-group amcharts-Circle-group" stroke-width="2" transform="translate(54.387 -31.399)"><circle class="amcharts-Circle" r="4" /></g></g></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Bullet-group amcharts-CircleBullet-group" tabindex="0"><g class="amcharts-Container amcharts-Bullet amcharts-CircleBullet"><g class="amcharts-Sprite-group amcharts-Circle-group" stroke-width="2" transform="translate(50.49 29.149)"><circle class="amcharts-Circle" r="4" /></g></g></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Bullet-group amcharts-CircleBullet-group" tabindex="0"><g class="amcharts-Container amcharts-Bullet amcharts-CircleBullet"><g class="amcharts-Sprite-group amcharts-Circle-group" stroke-width="2" transform="translate(0 54.3)"><circle class="amcharts-Circle" r="4" /></g></g></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Bullet-group amcharts-CircleBullet-group" tabindex="0"><g class="amcharts-Container amcharts-Bullet amcharts-CircleBullet"><g class="amcharts-Sprite-group amcharts-Circle-group" stroke-width="2" transform="translate(-49.97 28.849)"><circle class="amcharts-Circle" r="4" /></g></g></g><g class="amcharts-Sprite-group amcharts-Container-group amcharts-Bullet-group amcharts-CircleBullet-group" tabindex="0"><g class="amcharts-Container amcharts-Bullet amcharts-CircleBullet"><g class="amcharts-Sprite-group amcharts-Circle-group" stroke-width="2" transform="translate(-57.938 -33.449)"><circle class="amcharts-Circle" r="4" /></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></svg>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <h3>Interest Code: RCI</h3>
+                        <div id="" class=""><h3 style="color: rgb(235, 20, 24);">Realistic</h3><p class="diagram-description-text ng-binding">People who enjoy working with their hands, being outdoors, operating machines. They are often independent, persistent, genuine, and practical. They value what they can touch and the natural world.</p></div>
+                        <!--<div class=""><h3 style="color: rgb(202, 79, 12);">Enterprising</h3><p class="diagram-description-text ng-binding">People who enjoy being a leader, public speaking, and competing. They often are persuasive, motivational, and optimistic. They value taking risks, being in charge, and debating.</p></div>-->
+                        <!--<div class=""><h3 style="color: rgb(162, 83, 190);">Social</h3><p class="diagram-description-text ng-binding">People who enjoy helping others, teaching, and providing care or advice for others. They are often cooperative, generous, and understand the point of view of others. They value social interaction and relationship building.</p></div>-->
+                        <div class=""><h3 style="color: rgb(148, 111, 0);">Conventional</h3><p class="diagram-description-text ng-binding">People who enjoy numerical activities, practical tasks, accounting, and office settings. They are often organized, efficient, orderly, and detail-oriented. They value practical tasks, accuracy, and understanding the rules.</p></div>
+                        <div class=""><h3 style="color: rgb(22, 112, 202);">Investigative</h3><p class="diagram-description-text ng-binding">People who enjoy learning about science, researching problems to find answers, and technical tasks. They are often logical, medical, curious, and analytical. They like to perform experiments, observe, and investigate.</p></div>
+                        <!--<div class=""><h3 style="color: rgb(2, 136, 64);">Artistic</h3><p class="diagram-description-text ng-binding">People who enjoy working with ideas and concepts, and like to create work that is visual, verbal, and expressive. They are often sensitive, innovative, and unstructured. They value feelings and imagination to inspire them.</p></div>-->
+                    </div>
+                </div>
+                    <div class="w3-half">
+                        <div class="w3-display-container" style="overflow:hidden;">
+                            <img src="content/images/proHeadshot.png" style="width:100%" alt="Avatar">
+                            <div class="w3-display-bottomleft w3-container">
+                                <h3 class="w3-text-white">Terrell Parker</h3>
+                                <p class="w3-opacity w3-text-white">CEO & Founder</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                  
+             
+                    <div class="w3-row-padding">
+                    </div>
+
+                    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-text-white">Mini-Me Presentation</h3>
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <br />
+                        <div class="embedWrapper">
+                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT7VpstHvkQec0IuRuFv2CGfjKCVoPbvFu_1ZnI-mYPTOBoPyQNeBMvF5hCK8IMKA/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        </div>
+                        <br />
+                    </div>
+                    <div id="resume">
+                        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-text-white">Resume</h3>
+                        <div class="w3-white w3-card-4">
+                            <div class="embedWrapper">
+                                <embed src="content/files/Resume.pdf" width="800" height="800" />
+                            </div>
+                            <br />
+                            <a href="content/files/Resume.pdf" download style="text-decoration:none;">
+                                <div class="dnbtn themeColor-background"><i class="fa fa-file-pdf-o fa-download"></i> Download Resume</div>
+                            </a>
+                            <br />
+                        </div>
+
+                    </div>
+                </div>
+                    <div class="w3-twothird">
+                        <div class="w3-white w3-card-4">
+                            <div class="embedWrapper">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/xOkxuF2rx7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br />
+
+            <br />
+            <div id="projects">
+                <!-- Project Section -->
+                <br />
+                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-text-white">Projects</h3>
+
+
+
+                <!-- First Project Row-->
+                <div class="w3-row-padding w3-padding-16 w3-center">
+                    <a href="https://atparker.me/index.html">
+                        <div class="w3-quarter">
+                            <div class="w3-card-4 w3-margin w3-white">
+                                <img src="content/images/goofyHeadshot.png" alt="Popsicle" style="height:400px;width:100%">
+                                <h3>This Website(HTML,CSS,JS)</h3>
+                                <br>
+                            </div>
+
+                        </div>
+                    </a>
+                    <a href="pages/resistorSortor/index.html">
+                        <div class="w3-quarter">
+                            <div class="w3-card-4 w3-margin w3-white">
+                                <img src="content/images/rsLogo+rL.png" alt="Popsicle" style="height:400px;width:100%">
+                                <h3>resistorSortor</h3>
+                                <br>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="w3-quarter">
+                        <div class="w3-card-4 w3-margin w3-white">
+                            <img src="content/images/nccuDreamSTEM.png" alt="Popsicle" style="height:400px;width:100%">
+                            <h3>DreamStem/RDI</h3>
+                            <br>
+                        </div>
+
+                    </div>
+                    <div class="w3-quarter">
+                        <div class="w3-card-4 w3-margin w3-white">
+                            <img src="content/images/NCCU-PREM-Club-Logo.png" alt="Popsicle" style="height:400px;width:100%">
+                            <h3>NCCU Prem</h3>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Project Row-->
+                <a href="../pages/baseball/index.html">
+                    <div class="w3-row-padding w3-padding-16 w3-center">
+                        <div class="w3-quarter">
+                            <div class="w3-card-4 w3-margin w3-white">
+                                <img src="content/images/pcBaseLogo.png" alt="Popsicle" style="height:400px;width:100%">
+                                <h3>Baseball</h3>
+                                <br>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="w3-quarter">
+                            <div class="w3-card-4 w3-margin w3-white">
+                                <img src="content/images/mltLogo.png" alt="Popsicle" style="height:400px;width:100%">
+                                <h3>Miracle League</h3>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="w3-quarter">
+                            <div class="w3-card-4 w3-margin w3-white">
+                                <img src="content/images/goofyHeadshot.png" alt="Popsicle" style="height:400px;width:100%">
+                                <h3>Winter Beejewled(C#)</h3>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="w3-quarter">
+                            <div class="w3-card-4 w3-margin w3-white">
+                                <img src="content/images/goofyHeadshot.png" alt="Popsicle" style="height:400px;width:100%">
+                                <h3>Egyptian Rats Crew(C#)</h3>
+                                <br>
+                            </div>
+                        </div>
+                        <a href="pages/projects.html" style="text-decoration:none;">
+                            <div class="dnbtn themeColor-background" style="width:30%; float:right;"><i class="fa fa-arrow-right"></i><h5>More Projects!</h5></div>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <footer id="credits" class="w3-center w3-black w3-padding-16">
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+        </footer>
+    </div>
+    <script>
+        $('#os').overScroll();
+    </script>
+</body>
+</html>

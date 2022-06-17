@@ -1,77 +1,112 @@
 ﻿<!DOCTYPE html>
 
-<!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <title>Terrell Parker's Website</title>
+
     <link rel="icon" href="content/images/circleHeadshot.png" type="image/png">
+
     <meta charset="UTF-8">
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="src/css/styles.css">
+
     <script data-require="lodash.js@*" data-semver="4.11.1" src="https://cdn.jsdelivr.net/lodash/4.11.1/lodash.js"></script>
+
     <script data-require="jquery@2.1.3" data-semver="2.1.3" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGV2VXERCY"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'G-XGV2VXERCY    
+        gtag('config', 'G-XGV2VXERCY');
     </script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.3.3/d3.min.js"></script>
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+
+    <link rel="stylesheet" href="./src/gears/gear-toy.css">
+
+    <script type="text/javascript" src="./src/gears/gears.d3.js"></script>
+
+    <script type="text/javascript" src="./src/gears/gear-toy.js"></script>
 </head>
-<body >
-    <div class="w3-text-white" style="background-color:#121212">
-        <!--#212121-->
-        <div class="w3-row w3-padding">
-            <img class="w3-padding" src="content/images/headshotMain.JPG" style="height:400px; padding:0; margin:0;" />
-        </div>
-        <img src="content/images/signatureWhite.png" class="w3-border-bottom" style="height:100px; padding:0; margin:0;" />
-        <h2 style="font-family: " Times New Roman", Times, serif;">Thank you for visiting. This website is under maintenance.</h2>
-        <p style="font-family: " Times New Roman", Times, serif;">You can reach me at my other social medias here:</p>
-        <a href="https://www.linkedin.com/in/aterrellparker/">
-            <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-64.png" />
-        </a>
-        <a href="https://www.instagram.com/aterrellparker/">
-            <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-64.png" />
-        </a>
-        <a href="https://www.facebook.com/terrell.parker.948/">
-            <img class="w3-padding w3-card " src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-64.png" />
-        </a>
-        <a href="https://twitter.com/aterrellparker">
-            <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-64.png" />
-        </a>
-        <a href="https://github.com/aterrellparker">
-            <img class="w3-padding w3-card " src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-64.png" />
-        </a>
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+<body id="os" style="background-color:#121212;">
+    <!--#212121-->
+ 
 
-        <footer class="w3-text-white thmColor">
-            <div class="w3-row">
-                <div class="thmColor w3-border-right w3-quarter">
-                    <img class="w3-padding" src="content/images/circleHeadshot.png" style="height: 150px;" />
-                </div>
-                <div class="w3-rest thmColor">
-                    <h1><a href="http:www.atparker.me/">www.atparker.me</a> | Auston Terrell Parker © 2021</h1>
-                    <h6 class="w3-padding">Terrell Parker, a Cheatham-White scholar at North Carolina Central University majoring in Physics & Mechanical Engineering with a minor in Math. I belive engineering is a unique pathway to leave a positive impact on my community.</h6>
-                </div>
+
+    <div id="canvas" class="w3-text-white">
+        <div class="gears-d3-canvas"></div>
+        <div style="pointer-events: none;">
+            <div class="w3-row w3-padding">
+                <img class="w3-padding" src="content/images/headshotMain.JPG" style="height:400px; padding:0; margin:0;" />
             </div>
-        </footer>
 
+            <div class="w3-row w3-padding">
+                <img src="content/images/signatureWhite.png" class="w3-border-bottom" style="height:100px; padding:0; margin:0;" />
+
+                <h2 style="font-family: Times New Roman" , Times, serif;">Thank you for visiting. This website is under maintenance.</h2>
+
+                <p style="font-family: " Times New Roman", Times, serif;">You can reach me on my other social media accounts here:</p>
+            </div>
+
+            <div class="w3-row w3-padding">
+                <a href="https://www.linkedin.com/in/aterrellparker/">
+                    <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-64.png" />
+                </a>
+                <a href="https://www.instagram.com/aterrellparker/">
+                    <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-64.png" />
+                </a>
+                <a href="https://www.facebook.com/terrell.parker.948/">
+                    <img class="w3-padding w3-card " src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-64.png" />
+                </a>
+                <a href="https://twitter.com/aterrellparker">
+                    <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-64.png" />
+                </a>
+                <a href="https://github.com/aterrellparker">
+                    <img class="w3-padding w3-card " src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-64.png" />
+                </a>
+            </div>
+
+        </div>
+
+
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
     </div>
-      
+
+    <footer class="w3-text-white thmColor" style="position:relative; bottom:0;">
+        <div class="w3-row">
+            <div class="thmColor w3-border-right w3-quarter">
+                <img class="w3-padding" src="content/images/circleHeadshot.png" style="height: 150px;" />
+            </div>
+            <div class="w3-rest thmColor">
+                <h1><a href="http:www.atparker.me/">www.atparker.me</a> | Auston Terrell Parker © 2021</h1>
+                <h6 class="w3-padding">Terrell Parker, a Cheatham-White scholar at North Carolina Central University majoring in Physics & Mechanical Engineering with a minor in Math. I belive engineering is a unique pathway to leave a positive impact on my community.</h6>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
