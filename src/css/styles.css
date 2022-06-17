@@ -7,10 +7,11 @@ body {
     background-position: center;
     background-size: cover;
 }
-.mainDiv
-{
+
+.mainDiv {
     min-height: 75%;
 }
+
 .footer {
     left: 0;
     bottom: 0;
@@ -25,6 +26,7 @@ body {
     color: #fff !important;
     background-color: #8b2331 !important
 }
+
 .thmColor {
     color: #fff !important;
     background-color: #8b2331 !important
@@ -68,10 +70,13 @@ body {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
-    .topnav a.menuBtn {
-        display: none;
+
+    .topnav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
     }
-    /* Style the links inside the navigation bar */
+
     .topnav a {
         float: left;
         color: black;
@@ -80,18 +85,8 @@ body {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
+        background-color: #8b2331;
     }
-        /* Change the color of links on hover */
-        .topnav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        /* Add a color to the active/current link */
-        .topnav a.active {
-            background-color: #8b2331;
-            color: white;
-        }
 
 @media screen and (max-width: 900px) {
     .topnav a {
@@ -99,9 +94,6 @@ body {
         width: 100%;
         float: none;
         display: none;
-    }
-    .topnav a.menuBtn {
-        display: block;
     }
 }
 
@@ -173,6 +165,7 @@ div#os {
 .blackOutline {
     outline-style: solid;
 }
+
 #slide {
     position: absolute;
     left: -100px;
@@ -196,4 +189,3 @@ div#os {
         left: 0;
     }
 }
-

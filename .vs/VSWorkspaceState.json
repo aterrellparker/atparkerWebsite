@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content",
-    "\\pages"
+    "\\pages",
+    "\\src",
+    "\\src\\css",
+    "\\src\\scripts"
   ],
-  "SelectedNode": "\\gear-toy.js",
+  "SelectedNode": "\\src\\css\\styles.css",
   "PreviewInSolutionExplorer": false
 }
