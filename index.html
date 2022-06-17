@@ -49,60 +49,93 @@
 
 <body id="os" style="background-color:#121212;">
     <!--#212121-->
- 
+    <div id="topnav" class="topnav">
+        <a class="active menuBtn" onclick="w3_open()"> &#9776; Menu</a>
+        <a class="active" href="#home">Home</a>
+        <a class="" href="#about">About</a>
+        <a class="" href="#socialFeed">Social Media</a>
+        <a class="" href="#resume">Resume</a>
+        <a class="" href="#projects">Projects</a>
+        <a class="" href="#credits">Credits</a>
+    </div>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+        <a class="w3-button w3-xlarge" href="#home" onclick="w3_close()">Home</a>
+        <a class="w3-button w3-xlarge" href="#about" onclick="w3_close()">About</a>
+        <a class="w3-button w3-xlarge" href="#socialFeed" onclick="w3_close()">Social Media</a>
+        <a class="w3-button w3-xlarge" href="#resume" onclick="w3_close()">Resume</a>
+        <a class="w3-button w3-xlarge" href="#projects" onclick="w3_close()">Projects</a>
+        <a class="w3-button w3-xlarge" href="#credits" onclick="w3_close()">Credits</a>
+    </div>
+
+    <script>
+        function w3_open() {
+
+            document.getElementById("mySidebar").style.width = "100 %";
+            document.getElementById("mySidebar").style.display = "block";
+
+            document.getElementById("topnav").style.width = "25%";
+        }
+
+        function w3_close() {
+            document.getElementById("topnav").style.width = "100%";
+            document.getElementById("os").style.width = "100%";
+            document.getElementById("mySidebar").style.display = "none";
+
+        }
+    </script>
 
 
     <div id="canvas" class="w3-text-white">
         <div class="gears-d3-canvas"></div>
-        <div style="pointer-events: none;">
-            <div class="w3-row w3-padding">
-                <img class="w3-padding" src="content/images/headshotMain.JPG" style="height:400px; padding:0; margin:0;" />
-            </div>
 
-            <div class="w3-row w3-padding">
-                <img src="content/images/signatureWhite.png" class="w3-border-bottom" style="height:100px; padding:0; margin:0;" />
-
-                <h2 style="font-family: Times New Roman" , Times, serif;">Thank you for visiting. This website is under maintenance.</h2>
-
-                <p style="font-family: " Times New Roman", Times, serif;">You can reach me on my other social media accounts here:</p>
-            </div>
-
-            <div class="w3-row w3-padding">
-                <a href="https://www.linkedin.com/in/aterrellparker/">
-                    <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-64.png" />
-                </a>
-                <a href="https://www.instagram.com/aterrellparker/">
-                    <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-64.png" />
-                </a>
-                <a href="https://www.facebook.com/terrell.parker.948/">
-                    <img class="w3-padding w3-card " src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-64.png" />
-                </a>
-                <a href="https://twitter.com/aterrellparker">
-                    <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-64.png" />
-                </a>
-                <a href="https://github.com/aterrellparker">
-                    <img class="w3-padding w3-card " src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-64.png" />
-                </a>
-            </div>
-
+        <div class="w3-row w3-padding">
+            <img class="w3-padding" src="content/images/headshotMain.JPG" style="height:400px; padding:0; margin:0;" />
         </div>
 
+        <div class="w3-row w3-padding">
+            <img src="content/images/signatureWhite.png" class="w3-border-bottom" style="height:100px; padding:0; margin:0;" />
 
+            <h2 style="font-family: Times New Roman" , Times, serif;">Thank you for visiting. This website is under maintenance.</h2>
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+            <p style="font-family: Times New Roman" , Times, serif;">You can reach me on my other social media accounts here:</p>
+        </div>
+
+        <div class="w3-row w3-padding">
+            <a href="https://www.linkedin.com/in/aterrellparker/">
+                <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-64.png" />
+            </a>
+            <a href="https://www.instagram.com/aterrellparker/">
+                <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-64.png" />
+            </a>
+            <a href="https://www.facebook.com/terrell.parker.948/">
+                <img class="w3-padding w3-card " src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-64.png" />
+            </a>
+            <a href="https://twitter.com/aterrellparker">
+                <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-64.png" />
+            </a>
+            <a href="https://github.com/aterrellparker">
+                <img class="w3-padding w3-card " src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-64.png" />
+            </a>
+        </div>
 
     </div>
 
-    <footer class="w3-text-white thmColor" style="position:relative; bottom:0;">
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    </div>
+
+    <footer class="w3-text-white thmColor" style=" bottom:0;">
         <div class="w3-row">
             <div class="thmColor w3-border-right w3-quarter">
                 <img class="w3-padding" src="content/images/circleHeadshot.png" style="height: 150px;" />
             </div>
-            <div class="w3-rest thmColor">
+            <div class="thmColor">
                 <h1><a href="http:www.atparker.me/">www.atparker.me</a> | Auston Terrell Parker © 2021</h1>
                 <h6 class="w3-padding">Terrell Parker, a Cheatham-White scholar at North Carolina Central University majoring in Physics & Mechanical Engineering with a minor in Math. I belive engineering is a unique pathway to leave a positive impact on my community.</h6>
             </div>

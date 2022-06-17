@@ -67,8 +67,8 @@ body.dragging {
 
 .gears-d3-canvas svg {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     /* border: 1px solid #333;
    background: #252525;
     margin: 30px 0 0 0;

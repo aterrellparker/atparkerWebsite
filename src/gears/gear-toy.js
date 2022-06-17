@@ -13,7 +13,7 @@
         _canvasHeight = 768,
         xCenter = _canvasWidth * 0.5,
         yCenter = _canvasHeight * 0.5,
-        _gearFactors = [128,256,384],
+        _gearFactors = [64,128,256],
         _gearStyles = ['style-0'],
         _autoShuffle = true,
         _dragBehaviour;
