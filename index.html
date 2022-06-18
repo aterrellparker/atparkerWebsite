@@ -47,35 +47,78 @@
     <script type="text/javascript" src="./src/gears/gear-toy.js"></script>
 </head>
 
-<body id="os" style="background-color:#121212;">
-    <!--#212121-->
+<body>
 
- <header class="topnav">
-     <ul>
-         <li class="active"><a href="default.asp">Home</a></li>
-         <li><a href="news.asp">News</a></li>
-         <li><a href="contact.asp">Contact</a></li>
-         <li><a href="about.asp">About</a></li>
-     </ul>
- </header>
+    <header id="navbar" class="topnav w3-text-white w3-card">
 
+        <a onclick="toggle();">&#9776; Home</a>
+        <a id="hideable" href="">Contact</a>
+        <a id="hideable">Resume</a>
+        <a id="hideable">About</a>
+        <div id="hideable" class="search-container">
+            <form action="">
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"> &#8981;<!--<i class="fa fa-search fa-xs" style="height: 100%; font-size:15px; color: white "></i>--></button>
+            </form>
+        </div>
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar").style.top = "0";
+                } else {
+                    document.getElementById("navbar").style.top = "-25%";
+                    var x = document.querySelectorAll('[id ^= "hideable"]');
+                    x.forEach(element => hideElements(element));
+                }
+                prevScrollpos = currentScrollPos;
+            }
+            function toggle() {
+                var x = document.querySelectorAll('[id ^= "hideable"]');
+                x.forEach(element => {
+                    if (element.style.display === "flex") {
+                        hideElements(element);
+                    } else {
+                        showElements(element);
+                    }
+                })
+            }
+            function hideElements(element) {
+                element.style.display = "none";
+                
+                console.log("help");
+            }
+            function showElements(element) 
+            {
+               element.style.display = "flex";
+                console.log("us");
+     
+            }
 
-    <div id="canvas" class="w3-text-white">
-        <div class="gears-d3-canvas"></div>
+        </script>
+    </header>
 
-        <div class="w3-row w3-padding">
-            <img class="w3-padding" src="content/images/headshotMain.JPG" style="height:400px; padding:0; margin:0;" />
+    <div class="gears-d3-canvas"></div>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="w3-margin">
+        <div class="w3-row w3-text-white">
+            <img src="content/images/headshotMain.JPG" style="max-width:85%; max-height:400px; display: block; margin-left: auto; margin-right: auto;" />
         </div>
 
-        <div class="w3-row w3-padding">
-            <img src="content/images/signatureWhite.png" class="w3-border-bottom" style="height:100px; padding:0; margin:0;" />
+        <div class="w3-row w3-padding w3-text-white">
+            <img src="content/images/signatureWhite.png" class="w3-border-bottom" style="max-width: 85%; display: block; margin-left: auto; margin-right: auto;" />
 
             <h2 style="font-family: Times New Roman" , Times, serif;">Thank you for visiting. This website is under maintenance.</h2>
 
-            <p style="font-family: Times New Roman" , Times, serif;">You can reach me on my other social media accounts here:</p>
+            <p style="font-family: Times New Roman" , Times, serif;">You can reach me on my other social media accounts:</p>
         </div>
 
-        <div class="w3-row w3-padding">
+        <div class="w3-row w3-padding w3-text-white">
             <a href="https://www.linkedin.com/in/aterrellparker/">
                 <img class="w3-padding w3-card " src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-64.png" />
             </a>
@@ -97,20 +140,23 @@
 
 
 
+
+
+
     <br />
     <br />
     <br />
     <br />
     <br />
 
-    </div>
 
-    <footer class="w3-text-white thmColor" style=" bottom:0;">
+
+    <footer class="w3-text-white thmColor-background" style=" bottom:0;">
         <div class="w3-row">
-            <div class="thmColor w3-border-right w3-quarter">
+            <div class="w3-quarter w3-border-right">
                 <img class="w3-padding" src="content/images/circleHeadshot.png" style="height: 150px;" />
             </div>
-            <div class="thmColor">
+            <div class="w3-rest w3-padding">
                 <h1><a href="http:www.atparker.me/">www.atparker.me</a> | Auston Terrell Parker © 2021</h1>
                 <h6 class="w3-padding">Terrell Parker, a Cheatham-White scholar at North Carolina Central University majoring in Physics & Mechanical Engineering with a minor in Math. I belive engineering is a unique pathway to leave a positive impact on my community.</h6>
             </div>

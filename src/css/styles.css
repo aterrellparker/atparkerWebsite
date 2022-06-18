@@ -1,40 +1,136 @@
+
 body {
     overflow: hidden;
     text-align: center;
-    background-image: url('https://atparker.me/content/images/back_image.png');
+    background-color: #121212; /** #212121 Alternate Color */
+    /*background-image: url('../../content/images/back_image.png');*/
     width: 100vw;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-.mainDiv {
-    min-height: 75%;
+/*Navbar Style*/
+header {
+    background-color: #212121;
+    overflow: hidden;
+    z-index: 100;
+    padding: 0px 0px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 45px;
+    transition: top 0.3s;
+    /*    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);*/
 }
 
-.footer {
+    header a {
+        list-style-type: none;
+        text-decoration: none;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        height: 100%;
+        transition: left 0.3s;
+    }
+
+        header a:hover {
+            background-color: #8b2331;
+        }
+
+    header .search-container {
+        float: right;
+        height: 100%;
+    }
+
+    header form {
+        height: 100%;
+    }
+
+    header input {
+        height: 100%;
+        border: none;
+    }
+
+    header .search-container button {
+        display: flex;
+        font-size:25px;
+        justify-content: center;
+        align-content: center;
+        color: white;
+        float: right;
+        background-color: #212121;
+        border: none;
+        padding: 0px 0px;
+        cursor: pointer;
+        text-align: center;
+        height: 100%;
+        width: 45px;
+    }
+
+        header .search-container button:hover {
+            background: #8b2331;
+        }
+
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 70%;
+        background-color: transparent;
+    }
+
+        header a, header input[type=text], header .search-container, header .search-container button {
+            height: 20%;
+            float: none;
+            text-align: center;
+            max-width: 100%;
+            width: 100%;
+            background-color: #212121;
+        }
+
+            header .search-container input {
+             
+                height: 100%;
+                width: 75%;
+                float: left;
+            }
+
+            header .search-container button {
+                font-size: 50px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+            
+                height: 100%;
+                width: 25%;
+            }
+}
+
+
+footer {
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #8b2331;
     color: white;
-    text-align: left;
+    text-align: center;
 }
 
-</style >
-.themeColor-background {
-    color: #fff !important;
+.thmColor-text2 {
+    color: #8b2331 !important;
+}
+
+.thmColor-background {
     background-color: #8b2331 !important
 }
 
-.thmColor {
-    color: #fff !important;
-    background-color: #8b2331 !important
-}
-
-.themeColor-btn {
-    background-color: #8B2331;
-}
 
 .themeColor-text {
     color: #9A1040;
@@ -44,59 +140,64 @@ body {
     padding-top: 20px;
 }
 
-.embedWrapper {
-    position: relative;
-    margin: auto;
-    padding-bottom: 56.25%; /* set the aspect ratio here as (height / width) * 100% */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
 
-    .embedWrapper iframe, .embedWrapper video .embedWrapper embed {
-        position: absolute;
-        margin: auto;
-        top: 0;
-        left: 5%;
-        width: 90%;
-        height: 100%;
-    }
-
-.topnav {
+/*Dynamic Background ID Style*/
+div#os {
+    height: 100vh;
+    width: 100%;
     background-color: transparent;
-    overflow: hidden;
-    z-index: 100;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    bottom: 0;
 }
 
-    .topnav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
+.h_iframe iframe {
+    width: 100%;
+    height: calc(100% - 75px);
+}
 
-    .topnav a {
-        float: left;
-        color: black;
-        text-align: center;
-        max-width: 20%;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        background-color: #8b2331;
-    }
+.h_iframe {
+    height: 100%;
+}
+/*Download Button*/
+.dnbtn {
+    width: 75%;
+    border: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
 
-@media screen and (max-width: 900px) {
-    .topnav a {
-        max-width: 100%;
-        width: 100%;
-        float: none;
-        display: none;
+/*Slide Animations*/
+#slide {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        left: 0;
     }
 }
 
+@keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+/* FA Icons */
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -124,68 +225,4 @@ body {
 .fa-linkedin {
     background: #007bb5;
     color: white;
-}
-
-div#os {
-    height: 100vh;
-    width: 100%;
-    background-color: transparent;
-    overflow: scroll;
-    overflow-x: hidden;
-    position: absolute;
-    bottom: 0;
-}
-
-.h_iframe iframe {
-    width: 100%;
-    height: calc(100% - 75px);
-}
-
-.h_iframe {
-    height: 100%;
-}
-
-.dnbtn {
-    width: 75%;
-    border: none;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-    /* Darker background on mouse-over */
-    .dnbtn:hover {
-        background-color: #7c1843;
-    }
-
-.blackOutline {
-    outline-style: solid;
-}
-
-#slide {
-    position: absolute;
-    left: -100px;
-    width: 100px;
-    height: 100px;
-    background: blue;
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 0.5s forwards;
-    animation-delay: 2s;
-}
-
-@-webkit-keyframes slide {
-    100% {
-        left: 0;
-    }
-}
-
-@keyframes slide {
-    100% {
-        left: 0;
-    }
 }
