@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\FatherDay22",
+    "\\FatherDay22\\Content",
+    "\\FatherDay22\\Content\\Images",
+    "\\FatherDay22\\js",
     "\\src",
     "\\src\\css"
   ],
-  "SelectedNode": "\\pages",
+  "SelectedNode": "\\FatherDay22\\index.html",
   "PreviewInSolutionExplorer": false
 }
