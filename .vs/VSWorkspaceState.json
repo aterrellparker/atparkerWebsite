@@ -1,13 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FatherDay22",
-    "\\FatherDay22\\Content",
-    "\\FatherDay22\\Content\\Images",
-    "\\FatherDay22\\js",
+    "\\content",
+    "\\content\\files",
+    "\\content\\videos",
     "\\src",
-    "\\src\\css"
+    "\\src\\css",
+    "\\src\\gears",
+    "\\src\\scripts"
   ],
-  "SelectedNode": "\\FatherDay22\\index.html",
+  "SelectedNode": "\\src\\scripts\\jquery-overScroll-1.0.1.js",
   "PreviewInSolutionExplorer": false
 }
