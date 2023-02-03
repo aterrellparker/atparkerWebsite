@@ -60,10 +60,10 @@
 
         // extend the dragbehaviour to disable randomise while dragging
         _dragBehaviour
-            .on("dragstart.i", function() {
+            .on("start.i", function() {
                 _autoShuffle = false;
             })
-            .on("dragend.i", function() {
+            .on("end.i", function() {
                 _autoShuffle = false;
             });
 
@@ -75,7 +75,7 @@
         _randomiseInterval = setInterval(function() {
             if (_autoShuffle)
                 _randomiseScene(true);
-        }, 15000);
+        }, 20000);
 
         // start the d3 animation timer
         d3.timer(function () {
@@ -132,7 +132,7 @@
                 if (transition) {
                     d3.select(this)
                         .transition()
-                        .ease('elastic')
+                        .ease(d3.easeElastic)
                         .delay(i * 80 + Math.random() * 80)
                         .duration(1500)
                         .attr('transform', function(d) {

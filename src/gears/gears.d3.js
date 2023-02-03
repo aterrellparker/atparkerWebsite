@@ -142,10 +142,10 @@ var Gear = {
     },
 
     dragBehaviour: function(gears, svg) {
-        return d3.behavior.drag()
-                    .origin(function(d) { return d; })
-                    .on('dragstart', function (d, i) {
-                        d.dragEvent = 'dragstart';
+        return d3.drag()
+                    .subject(function(d) { return d; })
+                    .on('start', function (d, i) {
+                        d.dragEvent = 'start';
                         d3.select(this).classed('dragging', true);
                         d3.select('body').classed('dragging', true);
                     })
@@ -173,8 +173,8 @@ var Gear = {
                             d.y = oldY;
                         }
                     })
-                    .on('dragend', function (d, i) {
-                        d.dragEvent = 'dragend';
+                    .on('end', function (d, i) {
+                        d.dragEvent = 'end';
                         d3.select(this).classed('dragging', false);
                         d3.select('body').classed('dragging', false);
                         Gear.updateGears(gears);
