@@ -1,3 +1,20 @@
+.thmColor-background {
+    background-color: #8b2331 !important
+}
+
+.themeColor-text {
+    color: #9A1040;
+}
+
+.thmColor-text2 {
+    color: #8b2331 !important;
+}
+
+.dnbtn {
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+}
 
 body {
     overflow: hidden;
@@ -115,76 +132,11 @@ header {
 
 
 footer {
-    left: 0;
-    bottom: 0;
     width: 100%;
-    background-color: #8b2331;
-    color: white;
     text-align: center;
 }
 
-.thmColor-text2 {
-    color: #8b2331 !important;
-}
 
-.thmColor-background {
-    background-color: #8b2331 !important
-}
-
-
-.themeColor-text {
-    color: #9A1040;
-}
-
-.title {
-    padding-top: 20px;
-}
-
-
-/*Dynamic Background ID Style*/
-div#os {
-    height: 100vh;
-    width: 100%;
-    background-color: transparent;
-    overflow: scroll;
-    overflow-x: hidden;
-    position: absolute;
-    bottom: 0;
-}
-
-.h_iframe iframe {
-    width: 100%;
-    height: calc(100% - 75px);
-}
-
-.h_iframe {
-    height: 100%;
-}
-/*Download Button*/
-.dnbtn {
-    width: 75%;
-    border: none;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-/*Slide Animations*/
-#slide {
-    position: absolute;
-    left: -100px;
-    width: 100px;
-    height: 100px;
-    background: blue;
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 0.5s forwards;
-    animation-delay: 2s;
-}
 
 @-webkit-keyframes slide {
     100% {
