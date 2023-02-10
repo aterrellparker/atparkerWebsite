@@ -10,11 +10,18 @@
     color: #8b2331 !important;
 }
 
-.dnbtn {
+.btn {
+    background-color: #8b2331;
     text-align: center;
-    width: 100px;
+    border: none;
+    color: white;
+    height:60px;
     cursor: pointer;
-}
+  }
+  
+  .btn:hover {
+    background-color: #9A1040;
+  }
 
 body {
     overflow: hidden;
